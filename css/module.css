@@ -1,0 +1,10 @@
+.services .heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff !important;
+  background-color: #0080ff !important;
+}
+
+.titleSpace {
+  margin-bottom: 30px;
+}

@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+  background-color: #ebf2f5 !important;
 }
 
 /*------------------NAV SECTION---------------*/
@@ -30,8 +31,13 @@ body {
   text-transform: uppercase;
 }
 
-a.dropdown-menu {
+.dropdown .dropdown-menu a {
   color: #000 !important;
+}
+
+.dropdown .dropdown-menu a:hover {
+  color: #fff !important;
+  background-color: #0080ff;
 }
 
 .navbar-nav li a {
@@ -147,7 +153,6 @@ a.list-group-item.list-group-item-action:hover {
 /*------------------ABOUT US SECTION---------------*/
 
 #about-us {
-  background-color: #f8f9fa;
   padding-bottom: 50px;
   padding-top: 50px;
 }
