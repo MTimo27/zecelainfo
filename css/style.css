@@ -1,7 +1,7 @@
 /*!
  * Zece La Informatica Website Project 
  * (c) 2020 Mihai Timoficiuc
- * https://github.com/MTimo27/zeceLaInformatica
+ * https://github.com/MTimo27/zecelainfo
 */
 
 * {
@@ -23,7 +23,11 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #73c2fb 0%, #0080ff 100%);
+  background-image: linear-gradient(
+    to right,
+    #73c2fb 0%,
+    #0080ff 100%
+  );
   padding: 10px !important;
 }
 
@@ -64,7 +68,11 @@ body {
 /*------------------BANNER SECTION---------------*/
 
 #banner {
-  background-image: linear-gradient(to right, #73c2fb 0%, #0080ff 100%);
+  background-image: linear-gradient(
+    to right,
+    #73c2fb 0%,
+    #0080ff 100%
+  );
   color: #fff;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -75,6 +83,7 @@ body {
   font-weight: 700;
   margin-top: 100px;
   -webkit-animation-duration: 3s !important;
+  animation-duration: 3s !important;
 }
 
 .promo-text {
@@ -82,12 +91,14 @@ body {
   font-weight: 300;
   margin-top: 20px;
   -webkit-animation-duration: 3s !important;
+  animation-duration: 3s !important;
 }
 
 .img-fluid {
   border-radius: 30px;
   width: 450px;
   -webkit-animation-duration: 3s !important;
+  animation-duration: 3s !important;
 }
 
 /*------------------SERVICES SECTION---------------*/
@@ -133,7 +144,7 @@ body {
 }
 
 .title::before {
-  content: '';
+  content: "";
   background: #0080ff;
   height: 5px;
   width: 100px;
@@ -148,7 +159,11 @@ body {
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #73c2fb 0%, #0080ff 100%);
+  background-image: linear-gradient(
+    to right,
+    #73c2fb 0%,
+    #0080ff 100%
+  );
 }
 
 a.list-group-item.list-group-item-action:hover {
@@ -204,7 +219,11 @@ a.list-group-item.list-group-item-action:hover {
 /*------------------FOOTER SECTION---------------*/
 
 #footer {
-  background-image: linear-gradient(to right, #73c2fb 0%, #0080ff 100%);
+  background-image: linear-gradient(
+    to right,
+    #73c2fb 0%,
+    #0080ff 100%
+  );
   color: #fff;
 }
 
@@ -225,7 +244,11 @@ a.list-group-item.list-group-item-action:hover {
   text-align: center;
   padding: 7px;
   border-radius: 2px;
-  background-image: linear-gradient(to right, #73c2fb 0%, #0080ff 100%);
+  background-image: linear-gradient(
+    to right,
+    #73c2fb 0%,
+    #0080ff 100%
+  );
   vertical-align: middle;
 }
 
@@ -242,7 +265,11 @@ a.list-group-item.list-group-item-action:hover {
   border: none;
   border-radius: 0;
   margin-top: 30px;
-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  background-image: linear-gradient(
+    to right,
+    #6a11cb 0%,
+    #2575fc 100%
+  );
 }
 
 .footer-box a {
@@ -279,18 +306,6 @@ hr {
 @media (max-width: 767px) {
   #services .btn-primary {
     font-size: 14px;
-  }
-
-  #social-media p {
-    font-size: 23px;
-    font-weight: 600;
-    margin-bottom: 30px;
-  }
-
-  .social-icons img {
-    margin-right: 20px;
-    width: 55px;
-    transition: 0.5s;
   }
 
   .promo-title {
